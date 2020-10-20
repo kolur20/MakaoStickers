@@ -1,0 +1,34 @@
+﻿Resto.Front.Api.MakaoStickers
+using Api.PaymentConnection and .NET Framework 4.6.1
+V3.6
+
+
+Во вложении плагин, для его работы используется лицензия iikoPaymentPlugin (iikoFront) id21015808.
+Плагин подкидывается в ..\iikoRMS\Front.Net\Plugins, проверить что dll не заблокированы
+После первого запуска, появятся файлы настройки плагина, по пути %appdata%\iiko\CashServer\PluginConfigs\Resto.Front.Api.MakaoStickers.
+Пример файла настроек в архиве с плагином "MakaoStickers.front.config.xml"
+Настройка файла конфигурации:
+Restaurant_Department - название ресторана
+Restaurant_Address - адрес ресторана
+Restaurant_ExpirationTime - срок хранения
+Restaurant_StorageTemperature - температура хранения
+Restaurant_SpecialHall_StartTableInd - начальный номер стола для печати
+Restaurant_SpecialHall_EndTableInd - конечный номер стола для печати
+iiko_Host - доступ к РМС
+iiko_Port - порт РМС
+iiko_Server - инстанс РМС
+iiko_Login - логин РМС для запроса номенклатуры и ттк
+iiko_Password - пароль от логина
+Printer_Name - имя принтера в windows для печати этикетки
+Printer_PageWidth - ширина этикетки в пикселях
+Printer_PageHeight - высота этикетки в пикселях
+Printer_HorisontalBordersWidth - отступ от края по горизонтали  в пикселях
+Printer_VerticalBordersHeight - отступ от края по вертикали в пикселях
+
+	НАСТРЙОКА ДЛЯ ПРИНТЕРА  --------- ArgoxOS-2130D ---------
+  <Printer_Name>ArgoxOS-2130D</Printer_Name>
+  <Printer_PageWidth>225</Printer_PageWidth>
+  <Printer_PageHeight>270</Printer_PageHeight>
+  <Printer_HorisontalBordersWidth>10</Printer_HorisontalBordersWidth>
+  <Printer_VerticalBordersHeight>10</Printer_VerticalBordersHeight>
+ Настройка принтера бумага 58х60, ориентация книжная 180
